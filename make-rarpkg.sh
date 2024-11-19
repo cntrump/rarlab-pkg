@@ -23,7 +23,7 @@ if [ ! -f ${rar_keyfile} ]; then
   echo "${ORANGE}INFO${NC}: ${rar_keyfile} not found, the created pkg installer will use trial license."
 else
   echo "${GREEN}INFO${NC}: found ${rar_keyfile}, it will be packaged into pkg and later installed in the /usr/local/lib."
-  cp -f ${rar_keyfile} rarlab/lib/
+  cp -f ${rar_keyfile} rarlab/lib/.rarreg.key
 fi
 
 function check_file() {
