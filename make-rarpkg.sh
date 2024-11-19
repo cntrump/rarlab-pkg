@@ -45,5 +45,6 @@ pkgbuild --identifier com.rarlab.pkg.Rar \
          --version ${rar_version} \
          --min-os-version 10.9 \
          --install-location /usr/local \
+         --compression latest \
          --root rarlab \
          Rar-${rar_version}-macOS.pkg
