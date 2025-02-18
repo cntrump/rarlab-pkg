@@ -7,7 +7,7 @@ GREEN='\033[0;32m'
 ORANGE='\033[38;5;208m'
 NC='\033[0m' # No Color
 
-rar_version=7.01
+rar_version=7.10
 rar_keyfile=rarreg.key
 
 echo "${GREEN}INFO${NC}: Rar version: ${rar_version}"

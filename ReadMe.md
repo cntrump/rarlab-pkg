@@ -1,6 +1,6 @@
 # Rarlab pkg shell script
 
-RAR version: `7.01`
+RAR version: `7.10`
 
 1. Download x64 and ARM versions of RAR for macOS from https://www.rarlab.com/download.htm
 2. Place the latest versions of `rar` and `unrar` files in the corresponding architecture's `bin-${arch}` directory
@@ -10,16 +10,16 @@ RAR version: `7.01`
 ## Example
 
 ```bash
-$ ./make-rarpkg.sh
+$ ./build.sh
 
-INFO: Rar version: 7.01
+INFO: Rar version: 7.10
 INFO: rarreg.key not found, the created pkg installer will use trial license.
 INFO: rarlab/bin/rar found.
 INFO: rarlab/bin/unrar found.
 INFO: rarlab/etc/rarfiles.lst found.
 INFO: rarlab/lib/default.sfx found.
 pkgbuild: Inferring bundle components from contents of rarlab
-pkgbuild: Wrote package to Rar-7.01-macOS.pkg
+pkgbuild: Wrote package to Rar-7.10-macOS.pkg
 ```
 
 ## How to buy WinRAR and RAR license.
